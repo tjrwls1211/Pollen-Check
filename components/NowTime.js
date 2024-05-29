@@ -16,7 +16,7 @@ const NowTime = () => {
   return (
     <View style={GetStyle.button}>
       <Text style={GetStyle.buttonText}>현재 시간</Text>
-      <Text style={GetStyle.buttonText}>{year}년 {month}월 {day}일 {hour}시</Text>
+      <Text style={GetStyle.buttonText}>{year}년 {month}월 {day}일 {hour}시 </Text>
     </View>
   );
 };
