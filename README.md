@@ -14,4 +14,4 @@
 
 - ### 사용한 OpenAPI
 
-기상청 공공데이터 활용 : https://www.data.go.kr/data/15085289/openapi.do
+  - 기상청 공공데이터 활용 : https://www.data.go.kr/data/15085289/openapi.do
