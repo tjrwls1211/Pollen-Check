@@ -8,7 +8,6 @@ const FetchOakTreePollen = (cityNumber, date) => {
       return { todayCount, tomorrowCount, dayAfterTomorrowCount };
     })
     .catch(error => {
-      console.error('Error fetching data:', error); // 에러 처리
       throw error;
     });
 };

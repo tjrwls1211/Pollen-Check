@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { View, Picker } from 'react-native';
+import GetStyle from './GetStyle';
 
 const CityPicker = ({ onCityChange }) => {
   const [city, setCity] = useState("1100000000");
@@ -8,7 +9,9 @@ const CityPicker = ({ onCityChange }) => {
     onCityChange(cityNumber); 
   };
   return (
-    <View >
+    <View 
+      style={GetStyle.picker}
+    >
       <Picker
         selectedValue={city}
         onValueChange={handleCityChange}

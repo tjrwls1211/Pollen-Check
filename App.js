@@ -5,6 +5,7 @@ import Main from './Screens/Main';
 import Today from './Screens/Today';
 import Tomorrow from './Screens/Tomorrow';
 import DayAfterTomorrow from './Screens/DayAfterTomorrow';
+import PollenMap from './Screens/PollenMap';
 import CustomDrawer from './components/CustomDrawer';
 import home from './assets/home.png';
 
@@ -80,6 +81,22 @@ export default function App() {
           component={DayAfterTomorrow}
           options={({ navigation }) => ({
             title: '모레',
+            headerRight: () => (
+              <TouchableOpacity onPress={() => navigation.navigate('Main')}>
+                <Image
+                  style={{ width: 40, height: 40 }}
+                  source={home}
+                  resizeMode="contain"
+                />
+              </TouchableOpacity>
+            ),
+          })} 
+        />
+        <Drawer.Screen 
+          name="PollenMap"
+          component={PollenMap}
+          options={({ navigation }) => ({
+            title: '전국 현황',
             headerRight: () => (
               <TouchableOpacity onPress={() => navigation.navigate('Main')}>
                 <Image

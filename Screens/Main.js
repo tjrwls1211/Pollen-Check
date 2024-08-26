@@ -1,12 +1,12 @@
 import {Image, View, TouchableOpacity,Text} from 'react-native';
 import GetStyle from '../components/GetStyle';
 import pollen from '../assets/pollen.png';
-import NowTime from '../components/NowTime'
+import Time from '../components/Time'
 
 export default function MainScreen({ navigation }) {
   return (
     <View style={GetStyle.container}>
-      <NowTime/>
+      <Time/>
       <View style={GetStyle.imageContainer}>
         <Image
           style={{ width: 150, height: 150 }}
@@ -14,9 +14,6 @@ export default function MainScreen({ navigation }) {
           resizeMode="contain"
         />
       </View>
-      <View
-        style={GetStyle.row}
-      >
       <TouchableOpacity
         style={GetStyle.button}
         onPress={() => navigation.navigate('Today')}
@@ -35,7 +32,13 @@ export default function MainScreen({ navigation }) {
       >
         <Text style={GetStyle.buttonText}>모레 꽃가루</Text>
       </TouchableOpacity>
-    </View>
+      <TouchableOpacity
+        style={GetStyle.button}
+        onPress={() => navigation.navigate('PollenMap')}
+      >
+        <Text style={GetStyle.buttonText}>전국 현황</Text>
+      </TouchableOpacity>
+      
     </View>
   );
 }
