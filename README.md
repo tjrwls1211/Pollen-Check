@@ -1,11 +1,19 @@
-# Sample Snack app
+## 꽃가루 수치 알리미 어플
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+꽃가루에 예민한 비염인들에게 도움을 주기 위해 제작하였습니다.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+- ### 제공 꽃가루 정보
+  
+  - 참나무 (4 ~ 6월 제공)
+  - 소나무 (4 ~ 6월 제공)
+  - 잡초류 (8 ~ 10월 제공)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- ### 사용 방식
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+  -  오늘, 내일, 모레 중 원하는 날짜의 버튼을 선택
+  -  자신이 살고 있는 도시를 선택
+  -  소나무, 참나무, 잡초류의 꽃가루 수치들이 제공(위의 기간동안 정보 제공)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- ### 사용한 OpenAPI
+
+  - 기상청 공공데이터 활용 : https://www.data.go.kr/data/15085289/openapi.do
