@@ -20,12 +20,12 @@
 
   -  자신이 살고 있는 도시를 선택
 
-     ![image](https://github.com/user-attachments/assets/1390a183-2385-4a3a-8a7f-6b5c9d574349)
+    ![image](https://github.com/user-attachments/assets/1390a183-2385-4a3a-8a7f-6b5c9d574349)
 
 
   -  소나무, 참나무, 잡초류의 꽃가루 수치들이 제공(위의 기간동안 정보 제공)
 
-      ![image](https://github.com/user-attachments/assets/a60c8ed5-e0e1-4cd2-bc8d-3a5286f32df3)
+    ![image](https://github.com/user-attachments/assets/a60c8ed5-e0e1-4cd2-bc8d-3a5286f32df3)
 
   -  꽃가루 전국 현황 확인
 
