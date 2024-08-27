@@ -10,13 +10,16 @@
 
 - ### 사용 방식
 
-  ![메인화면](https://github.com/user-attachments/assets/630f0d05-ea94-4317-8548-98f051d253d3)
+    ![메인화면](https://github.com/user-attachments/assets/630f0d05-ea94-4317-8548-98f051d253d3)
 
   -  오늘, 내일, 모레 중 원하는 날짜의 버튼을 선택
 
-  ![image](https://github.com/user-attachments/assets/41696a02-439c-4198-a25b-79d671fb7a3b)
+    ![image](https://github.com/user-attachments/assets/41696a02-439c-4198-a25b-79d671fb7a3b)
 
   -  자신이 살고 있는 도시를 선택
+ 
+    ![image](https://github.com/user-attachments/assets/e8afbde2-f2c0-4419-a622-7ac2de6f22bf)
+
   -  소나무, 참나무, 잡초류의 꽃가루 수치들이 제공(위의 기간동안 정보 제공)
 
 - ### 사용한 OpenAPI
